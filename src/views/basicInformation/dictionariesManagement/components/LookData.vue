@@ -39,7 +39,7 @@ import { moodType } from '@/types/moodType';
 interface ParamsType extends moodType {
 	option?: string;
 }
-const props = defineProps<>({
+const props = defineProps({
 	params: {
 		type: Object as () => ParamsType,
 		default: {},
