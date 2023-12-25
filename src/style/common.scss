@@ -1,0 +1,39 @@
+body,
+html,
+#app {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+h4 {
+	margin: 10px 0 20px 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #419eff;
+	padding: 0 5px;
+}
+
+.mr4 {
+	margin-right: 4px;
+}
+
+.card-btn-container {
+	padding: 8px 0 15px 0;
+	display: flex;
+	justify-content: end;
+}
+ul li {
+	list-style: none;
+}
+// 设置文字链接样式
+.span-link {
+	display: inline-block;
+	margin: 0 5px !important;
+	color: #419eff;
+	cursor: pointer;
+}

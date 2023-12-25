@@ -1,0 +1,31 @@
+.el-menu {
+	border-right: none;
+}
+
+.el-card {
+	width: 100%;
+}
+
+.el-card__header {
+	padding: 12px;
+}
+
+.el-upload-dragger {
+	padding: 0;
+}
+.el-menu-item-group__title {
+	padding: 2px 0 2px 40px;
+}
+.el-table__row {
+	height: 60px;
+}
+.el-button {
+	min-width: 60px;
+}
+.el-menu-item.is-active {
+	background: #1a1f35 !important;
+	color: #fff;
+}
+.el-select-dropdown__item {
+	padding: 0 32px 0 20px !important;
+}
