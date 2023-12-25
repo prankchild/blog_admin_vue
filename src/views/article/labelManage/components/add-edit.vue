@@ -12,7 +12,7 @@
 import api from '@/api';
 import Dialog from '@/components/common/Dialog.vue';
 import { ElMessage, FormInstance, FormRules } from 'element-plus';
-import { reactive, ref } from 'vue-demi';
+import { reactive, ref } from 'vue';
 const dialogRef = ref();
 const ruleFormRef = ref();
 const props = defineProps({
